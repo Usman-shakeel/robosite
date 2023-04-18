@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Robo Automaters</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/be625547ed.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
-    <section class="sub-header">
+    <header>
         <nav>
-            <a href="index.html"><img src="images/logo.png" alt="Robo Automaters"></a>
+            <a href="index.html"><img src="images/main-logo.jpg" alt="Robo Automaters"></a>
             <div class="nav-links" id="navlinks">
                 <ul>
-                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <i class="fa fa-times hidemenu" onclick="hideMenu()"></i>
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="about.html">ABOUT</a></li>
                     <li><a href="course.html">COURSE</a></li>
@@ -30,17 +32,15 @@
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
+    </header>
+
+
+    <section class="sub-header">
         <h1>Contact Us</h1>
 
     </section>
 
     <!-- ---------- Contact Us ------------- -->
-    <section class="location">
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7237.039043116382!2d67.08009147226991!3d24.914365766535624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f2ffa1d1401%3A0x9ed77814463547b8!2sBlock%2013D-1%20Block%2013%20D%201%20Gulshan-e-Iqbal%2C%20Karachi%2C%20Karachi%20City%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1680386899627!5m2!1sen!2s"
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </section>
 
     <section class="contact-us">
         <div class="row">
@@ -48,21 +48,28 @@
                 <div>
                     <i class="fa fa-home"></i>
                     <span>
-                        <H5>RoboAutomators Office</H5>
-                        <p>block-13A, Gulshan-e-Iqbal, Karachi</p>
+                        <H5><a class="contacts" href="https://www.google.com/maps?ll=24.940299,67.073095&z=16&t=m&hl=en&gl=US&mapclient=embed&cid=10830544996069463985">RoboAutomators Office</a></H5>
+                        <p>C-41, Block 17, F.B Area, Karachi.</p>
                     </span>
                 </div>
                 <div>
                     <i class="fa fa-phone"></i>
                     <span>
-                        <H5>+923xxxxxxxxx</H5>
+                        <H5><a class="contacts" href="tel:00923073744526">+92307-3744526</a></H5>
                         <p>Monday to Saturday, 10AM to 6PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <span>
+                        <H5><a class="contacts" href="https://wa.me/923073744526">Whatsapp (+923073744526)</a></H5>
+                        <p>Have any queries, ask us on Whatsapp.</p>
                     </span>
                 </div>
                 <div>
                     <i class="fa fa-envelope-o"></i>
                     <span>
-                        <H5>info@roboautomaters.com</H5>
+                        <H5><a class="contacts" href="mailto:roboautomators@gmail.com">roboautomators@gmail.com</a></H5>
                         <p>Email us your queries</p>
                     </span>
                 </div>
@@ -80,22 +87,36 @@
         </div>
     </section>
 
-    <!-- -------Footer----- -->
-    <section class="footer">
+
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3617.7584060683175!2d67.073095!3d24.9402989!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f5dd3e83a29%3A0x964dd34a8e9ad7b1!2sIqra%20Islamic%20Foundation%20School!5e0!3m2!1sen!2s!4v1681789650957!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+     <!-- -------Footer----- -->
+     <section class="footer">
         <h4>About Us</h4>
-        <p>RoboAutomators provides affordable STEM and technology education with experienced trainers and an AI-based
+        <p>RoboAutomators provides affordable STEM and technology education with experienced trainers and an
+            AI-based
             portal to improve <br> students' performance. Our mission is to make technology education accessible to
             everyone in Pakistan.</p>
         <div class="icons">
-            <i class="fa fa-facebook"></i>
-            <i class="fa fa-twitter"></i>
-            <i class="fa fa-instagram"></i>
-            <i class="fa fa-linkedin"></i>
+            <a href="https://www.facebook.com/profile.php?id=100090023152002&mibextid=ZbWKwL" target="_blank"><i
+                    class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com/roboautomators_/" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/roboautomators/" target="_blank"><i
+                    class="fa fa-linkedin"></i></a>
+            <a href="https://wa.me/923073744526" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+
+
+        <!-- /* ----------------whatsapp click to chat--------------------- */ -->
+
+        <div class="whatapp-link">
+            <a aria-label="Chat on WhatsApp" target="_blank" href="https://wa.me/923073744526"> <i class="fa-brands fa-whatsapp"></i> </a>
         </div>
         <p>Made with <i class="fa fa-heart-o"></i> by Usman Shakeel</p>
     </section>
-
-
 
 
 

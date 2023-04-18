@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Robo Automaters</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
         rel="stylesheet">
-        <script src="https://kit.fontawesome.com/be625547ed.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/be625547ed.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
-    <section class="sub-header">
+    <header>
         <nav>
-            <a href="index.html"><img src="images/logo.png" alt="Robo Automaters"></a>
+            <a href="index.html"><img src="images/main-logo.jpg" alt="Robo Automaters"></a>
             <div class="nav-links" id="navlinks">
                 <ul>
-                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <i class="fa fa-times hidemenu" onclick="hideMenu()"></i>
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="about.html">ABOUT</a></li>
                     <li><a href="course.html">COURSE</a></li>
@@ -30,6 +32,10 @@
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
+    </header>
+
+
+    <section class="sub-header">
         <h1>Our Courses</h1>
 
     </section>
@@ -51,6 +57,34 @@
         <div class="course-col">
             <h3>Raspberry Pi</h3>
             <p>The Raspberry Pi Course is a hands-on curriculum that teaches you how to make different projects with the Raspberry Pi, including media centers, gaming consoles, web servers, and more. This course will introduce you to the essential ideas of computer hardware and software, such as operating systems, programming languages, and networking.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="course-col">
+            <h3>Mind Maths</h3>
+            <p>Our Robotics Course is an interactive and hands-on program that aims to introduce students to the
+                world of robotics and automation. We provide various robotics kits, including Lego-based robotic
+                kits and different microprocessor-based kits, to help students learn the basics of robotics in a
+                fun
+                and engaging way.</p>
+        </div>
+        <div class="course-col">
+            <h3>Game Development</h3>
+            <p>The Arduino Course is a hands-on program that teaches you how to use the Arduino microcontroller
+                to
+                create various electronic devices. Through this course, you will learn about the fundamental
+                concepts of electronics and programming, including input/output, analog and digital signals,
+                sensors, motors, and more.</p>
+        </div>
+        <div class="course-col">
+            <h3>Python and AI</h3>
+            <p>The Raspberry Pi Course is a hands-on curriculum that teaches you how to make different projects
+                with
+                the Raspberry Pi, including media centers, gaming consoles, web servers, and more. This course
+                will
+                introduce you to the essential ideas of computer hardware and software, such as operating
+                systems,
+                programming languages, and networking.</p>
         </div>
     </div>
 </section>
@@ -90,18 +124,32 @@
     </div>
 </section>
 
-<!-- -------Footer----- -->
-<section class="footer">
+ <!-- -------Footer----- -->
+ <section class="footer">
     <h4>About Us</h4>
-    <p>RoboAutomators provides affordable STEM and technology education with experienced trainers and an AI-based portal to improve <br> students' performance. Our mission is to make technology education accessible to everyone in Pakistan.</p>
+    <p>RoboAutomators provides affordable STEM and technology education with experienced trainers and an
+        AI-based
+        portal to improve <br> students' performance. Our mission is to make technology education accessible to
+        everyone in Pakistan.</p>
     <div class="icons">
-        <i class="fa fa-facebook"></i>
-        <i class="fa fa-twitter"></i>
-        <i class="fa fa-instagram"></i>
-        <i class="fa fa-linkedin"></i>
+        <a href="https://www.facebook.com/profile.php?id=100090023152002&mibextid=ZbWKwL" target="_blank"><i
+                class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.instagram.com/roboautomators_/" target="_blank"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/company/roboautomators/" target="_blank"><i
+                class="fa fa-linkedin"></i></a>
+        <a href="https://wa.me/923073744526" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
     </div>
-    <p>Made with  <i class="fa fa-heart-o"></i> by Usman Shakeel</p>
+
+
+    <!-- /* ----------------whatsapp click to chat--------------------- */ -->
+
+    <div class="whatapp-link">
+        <a aria-label="Chat on WhatsApp" target="_blank" href="https://wa.me/923073744526"> <i class="fa-brands fa-whatsapp"></i> </a>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Usman Shakeel</p>
 </section>
+
 
 
 
